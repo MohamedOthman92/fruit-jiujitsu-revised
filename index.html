@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= yes">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Fruit Hayabusa</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+</head>
+<body>
+       <div id="container">
+
+       <div id="playArea">
+           <img id="fruit1" class="fruit">
+       </div>
+       <div id="catchFruits">
+           <p>Catch Fruits</p>
+       </div>
+       <div id="startReset">
+           Start Game
+       </div>
+       <div id="score">
+           Score: <span id="scoreValue"></span>
+       </div>
+       <div id="trials">
+<!--
+            <span id="l1" class='ui-icon ui-icon-heart'></span>      
+            <span id="l2" class='ui-icon ui-icon-heart'></span>      
+            <span id="l3" class='ui-icon ui-icon-heart'></span>      
+-->
+        </div>
+       <div id="gameOver">
+           <h2>GAME OVER</h2>
+           <p>Your score is: <span id="scoreFinalValue"></span> </p>
+       </div>
+       </div>
+           <audio id="slash">
+<!--               <source src="audio/slash.mp3">-->
+               <source src="audio/slash.ogg">
+           </audio>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="jquery.js"></script> 
+</body>
+</html>
